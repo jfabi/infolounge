@@ -69,9 +69,29 @@ b{
 	font-family: Roboto, arial;
 	font-size: 5em;
 	font-weight: 600;
-	/*position: fixed;*/
+	position: relative;
 	/*top: 20px;*/
 	/*right: 30px;*/
+	color: #eeeeee;
+	text-align: right;
+}
+#dayweek {
+	font-family: Roboto, arial;
+	/*font-size: 5em;*/
+	/*font-weight: 600;*/
+	position: absolute;
+	/*top: 120px;*/
+	right: 200px;
+	color: #eeeeee;
+	text-align: right;
+}
+#datenum {
+	font-family: Roboto, arial;
+	/*font-size: 5em;*/
+	/*font-weight: 600;*/
+	position: absolute;
+	/*top: 120px;*/
+	right: 200px;
 	color: #eeeeee;
 	text-align: right;
 }
@@ -229,12 +249,12 @@ ul.jta-tweet-list li a{
 }
 
 .weather-temp{
-    font-size: 60px;
+    font-size: 36px;
     font-weight: 600;
 }
 
 .weather-feel{
-    font-size: 32px;
+    font-size: 22px;
 }
 
 .tech-minutes2{
@@ -253,6 +273,27 @@ ul.jta-tweet-list li a{
 
 .tech-route{
     font-size: 20px;
+}
+
+.tech-route2-red{
+    font-size: 30px;
+    background-color: red;
+}
+
+.tech-route-red{
+    font-size: 20px;
+    background-color: red;
+}
+
+.tech-route-yellow{
+    color: black;
+    font-size: 20px;
+    background-color: yellow;
+}
+
+.tech-time{
+    font-size: 20px;
+    background-color: black;
 }
 
 #menu{
@@ -296,7 +337,7 @@ ul.jta-tweet-list li a{
 }
 
 .warning {
-	background-color: blue;
+	background-color: red;
 	position: fixed;
 	left: 0;
 	top: 12px;
