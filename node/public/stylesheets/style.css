@@ -1,4 +1,3 @@
-
 @font-face { 
 	font-family: airplane; 
 	font-weight: normal;
@@ -240,6 +239,7 @@ ul.jta-tweet-list li a{
 
 #alerts{
     font-size: 24px;
+    background: yellow;
     line-height: 120%;
     font-weight: 400;
 }
@@ -275,25 +275,52 @@ ul.jta-tweet-list li a{
     font-size: 20px;
 }
 
-.tech-route2-red{
-    font-size: 30px;
-    background-color: red;
-}
-
 .tech-route-red{
-    font-size: 20px;
+    font-size: 33px;
     background-color: red;
 }
 
 .tech-route-yellow{
-    color: black;
-    font-size: 20px;
-    background-color: yellow;
+    color: white;
+    font-size: 33px;
+    background-color: gray;
 }
 
 .tech-time{
-    font-size: 20px;
+    font-size: 33px;
+    font-weight: 500;
     background-color: black;
+}
+
+.tech-next-time{
+    color: gray;
+    font-size: 33px;
+    background-color: black;
+}
+
+.tech-route-yellow-plus{
+    color: white;
+    font-size: 45px;
+    background-color: gray;
+}
+
+.tech-time-plus{
+    font-size: 45px;
+    font-weight: 500;
+    background-color: black;
+}
+
+.tech-next-time-plus{
+    color: gray;
+    font-size: 45px;
+    background-color: black;
+}
+
+.tech-alert{
+    color: black;
+    font-size: 26px;
+    line-height: 32px;
+    /* background-color: yellow; */
 }
 
 #menu{
